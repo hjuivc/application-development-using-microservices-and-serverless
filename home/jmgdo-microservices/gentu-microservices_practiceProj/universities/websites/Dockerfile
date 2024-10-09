@@ -1,4 +1,4 @@
-FROM python:slim-bookworm
+FROM python:3.12.4-slim-bookworm
 WORKDIR /python-docker
 
 COPY requirements.txt requirements.txt
